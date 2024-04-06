@@ -1,7 +1,7 @@
 #!/bin/sh
 
-sudo apt update
-sudo apt install git
+sudo apt-get update
+sudo apt-get install git
 
 ### INSTALLATING NETFILTER CONFIG #### 
 cat <<EOF | sudo tee /etc/modules-load.d/k8s.conf
